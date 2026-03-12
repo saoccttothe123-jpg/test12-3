@@ -21,11 +21,11 @@ module.exports = {
 	PlayerConfig: {
 		selfDeaf: true,
 		volume: "auto",
-		leaveOnEmpty: true,
+		leaveOnEmpty: false,
 		leaveOnEmptyCooldown: 5_000,
-		leaveOnEnd: true,
+		leaveOnEnd: false,
 		leaveOnEndCooldown: 50_0000,
-		changeStatus: true,
+		changeStatus: false,
 	},
 	webAppConfig: {
 		enabled: false,
